@@ -1,9 +1,11 @@
+#Вводим функцию
 print("Введите элементы списка в строчку:")
 num = input()
 nums = num.split()
 nums = list(map(int, nums))
 f = len(nums)
 print('nums =', nums)
+#Используем след. синтаксис 
 def is_monotonic(nums):
     k = 1
     counter = 0
